@@ -7,18 +7,89 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+dist/
+dist-ssr/
+.build/
+.next/
+out/
+
+# Optional npm cache directory
+.npm/
+
+# Local env files
+.env
+.env.*.local
 *.local
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# OS-specific files
+Thumbs.db
+
+# Coverage reports
+coverage/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Build artifacts
+build/
+*.tgz
+
+# Package manager lock files (optional depending on team practice)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Other common ignores
+*.log
+*.bak
+
+# Ignore the .next/ folder if using Next.js
+.next/
+
+# Ignore storybook files
+.storybook-out/
+
+# Ignore eslint cache
+.eslintcache
+
+# Ignore Jest cache
+jest-cache/
+jest-test-results.json
+
+# Ignore Cypress files
+cypress/videos/
+cypress/screenshots/
+
+# Ignore VSCode settings except extensions.json
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/*.code-workspace
+
+# Ignore database files
+*.sqlite
+*.sqlite-journal
+
+# Ignore uploads or temp folders if applicable
+uploads/
+tmp/
+temp/
